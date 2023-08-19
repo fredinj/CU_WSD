@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="EMPLOYEES">
+    <xs:complexType>
+    <xs:sequence>
+        <xs:element name="EMPLOYEE" maxOccurs="unbounded">
+            <xs:complexType>
+            <xs:sequence>
+                <xs:element name="personal_info">
+                    <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="first_name" type="xs:string" />
+                        <xs:element name="last_name" type="xs:string" />
+                        <xs:element name="dob" type="xs:date" />
+                        <xs:element name="gender" type="xs:string" />
+                    </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="employee_info">
+                    <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="position" type="xs:string" />
+                        <xs:element name="salary" type="xs:integer" />
+                    </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="contact_info">
+                    <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="email" type="xs:string" />
+                        <xs:element name="contact_number" type="xs:string" />
+                    </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
