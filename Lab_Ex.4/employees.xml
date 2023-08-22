@@ -2,7 +2,7 @@
 
 <EMPLOYEES>
 
-    <EMPLOYEE>
+    <EMPLOYEE id="1">
         <personal_info>
             <first_name>Rahul</first_name>
             <last_name>Sharma</last_name>
@@ -15,10 +15,10 @@
         </employee_info>
         <contact_info>
             <email>rahul.sharma@example.com</email>
-            <contact_number>+91 9876543210</contact_number>
+            <contact_number>9876543210</contact_number>
         </contact_info>
     </EMPLOYEE>
-    <EMPLOYEE>
+    <EMPLOYEE id="2">
         <personal_info>
             <first_name>Priya</first_name>
             <last_name>Verma</last_name>
@@ -31,10 +31,10 @@
         </employee_info>
         <contact_info>
             <email>priya.verma@example.com</email>
-            <contact_number>+91 8765432109</contact_number>
+            <contact_number>8765432109</contact_number>
         </contact_info>
     </EMPLOYEE>
-    <EMPLOYEE>
+    <EMPLOYEE id="3">
         <personal_info>
             <first_name>Amit</first_name>
             <last_name>Gupta</last_name>
@@ -47,10 +47,10 @@
         </employee_info>
         <contact_info>
             <email>amit.gupta@example.com</email>
-            <contact_number>+91 7654321098</contact_number>
+            <contact_number>7654321098</contact_number>
         </contact_info>
     </EMPLOYEE>
-    <EMPLOYEE>
+    <EMPLOYEE id="4">
         <personal_info>
             <first_name>Sneha</first_name>
             <last_name>Singh</last_name>
@@ -63,7 +63,7 @@
         </employee_info>
         <contact_info>
             <email>sneha.singh@example.com</email>
-            <contact_number>+91 9876543211</contact_number>
+            <contact_number>9876543211</contact_number>
         </contact_info>
     </EMPLOYEE>
 </EMPLOYEES>
