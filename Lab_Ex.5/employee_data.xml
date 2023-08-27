@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EMPLOYEES>
+
+    <EMPLOYEE id="1">
+        <personal_info>
+            <first_name>Rahul</first_name>
+            <last_name>Sharma</last_name>
+            <dob>1985-05-15</dob>
+            <gender>Male</gender>
+        </personal_info>
+        <employee_info>
+            <position>Software Engineer</position>
+            <salary>80000</salary>
+        </employee_info>
+        <contact_info>
+            <email>rahul.sharma@example.com</email>
+            <contact_number>9876543210</contact_number>
+        </contact_info>
+    </EMPLOYEE>
+    <EMPLOYEE id="2">
+        <personal_info>
+            <first_name>Priya</first_name>
+            <last_name>Verma</last_name>
+            <dob>1990-09-20</dob>
+            <gender>Female</gender>
+        </personal_info>
+        <employee_info>
+            <position>Marketing Manager</position>
+            <salary>90000</salary>
+        </employee_info>
+        <contact_info>
+            <email>priya.verma@example.com</email>
+            <contact_number>8765432109</contact_number>
+        </contact_info>
+    </EMPLOYEE>
+    <EMPLOYEE id="3">
+        <personal_info>
+            <first_name>Amit</first_name>
+            <last_name>Gupta</last_name>
+            <dob>1988-03-08</dob>
+            <gender>Male</gender>
+        </personal_info>
+        <employee_info>
+            <position>Financial Analyst</position>
+            <salary>75000</salary>
+        </employee_info>
+        <contact_info>
+            <email>amit.gupta@example.com</email>
+            <contact_number>7654321098</contact_number>
+        </contact_info>
+    </EMPLOYEE>
+    <EMPLOYEE id="4">
+        <personal_info>
+            <first_name>Sneha</first_name>
+            <last_name>Singh</last_name>
+            <dob>1992-12-03</dob>
+            <gender>Female</gender>
+        </personal_info>
+        <employee_info>
+            <position>HR Manager</position>
+            <salary>85000</salary>
+        </employee_info>
+        <contact_info>
+            <email>sneha.singh@example.com</email>
+            <contact_number>9876543211</contact_number>
+        </contact_info>
+    </EMPLOYEE>
+</EMPLOYEES>
