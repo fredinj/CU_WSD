@@ -1,0 +1,29 @@
+.main_cont{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border: 1px solid black;
+    border-radius:8px;
+    padding:20px;
+    width: 50%;   
+    height: 60%; 
+}
+
+.inner_cont{
+    display: flex;
+}
+
+h1{
+    margin:20px;
+}
