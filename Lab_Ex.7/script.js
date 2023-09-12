@@ -6,12 +6,8 @@ const bookList = document.getElementById('data');
 ajaxButton.addEventListener('click', () => {
   httpRequest.onreadystatechange = () => {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
-      if (httpRequest.status === 200) {
         const books = JSON.parse(httpRequest.responseText);
         displayBooks(books);
-      } else {
-        alert('Request failed.');
-      }
     }
   };
 
@@ -26,8 +22,8 @@ function displayBooks(books) {
       <div class="card">
         <div class="card-body">
           <h3>${book.title}</h3>
-          <p class="card-text">${book.author}</p>
-          <a href="${book.link}">Link</a>
+          <p class="card-text">Author: ${book.author}</p>
+          <a href="${book.link}">Book Details</a>
         </div>
       </div>`;
   });
