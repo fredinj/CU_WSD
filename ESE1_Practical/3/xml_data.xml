@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jokes>
+    <joke id="1">
+        <category>Programming</category>
+        <delivery>UDP is better in the COVID era since it avoids unnecessary handshakes.</delivery>
+    </joke>
+    <joke id="2">
+        <category>Pun</category>
+        <delivery>I bought some shoes from a drug dealer. I don't know what he laced them with, but I was tripping all day!</delivery>
+    </joke>
+    <joke id="3">
+        <category>Programming</category>
+        <delivery>Today I learned that changing random stuff until your program works is \"hacky\" and a \"bad coding practice\" but if you do it fast enough it's \"Machine Learning\" and pays 4x your current salary.</delivery>
+    </joke>
+    <joke id="4">
+        <category>Programming</category>
+        <delivery>"A byte walks into a bar looking miserable.\nThe bartender asks it: \"What's wrong buddy?\"\n\"Parity error.\" it replies. \n\"Ah that makes sense, I thought you looked a bit off.\""</delivery>
+    </joke>
+    <joke id="5">
+        <category>Dark</category>
+        <delivery>"I didn't vaccinate my 10 kids and the one that survived is fine!"</delivery>
+    </joke>
+    <joke id="6">
+        <category>Programming</category>
+        <delivery>"Hey Girl,\nRoses are #ff0000,\nViolets are #0000ff,\nI use hex codes,\nBut I'd use RGB for you."</delivery>
+    </joke>
+    <joke id="7">
+        <category>Programming</category>
+        <delivery>UDP is better in the COVID era since it avoids unnecessary handshakes.</delivery>
+    </joke>
+    <joke id="8">
+        <category>Pun</category>
+        <delivery>I bought some shoes from a drug dealer. I don't know what he laced them with, but I was tripping all day!</delivery>
+    </joke>
+    <joke id="9">
+        <category>Programming</category>
+        <delivery>Today I learned that changing random stuff until your program works is \"hacky\" and a \"bad coding practice\" but if you do it fast enough it's \"Machine Learning\" and pays 4x your current salary.</delivery>
+    </joke>
+    <joke id="10">
+        <category>Programming</category>
+        <delivery>"A byte walks into a bar looking miserable.\nThe bartender asks it: \"What's wrong buddy?\"\n\"Parity error.\" it replies. \n\"Ah that makes sense, I thought you looked a bit off.\""</delivery>
+    </joke>
+    <joke id="12">
+        <category>Dark</category>
+        <delivery>"I didn't vaccinate my 10 kids and the one that survived is fine!"</delivery>
+    </joke>
+    <joke id="13">
+        <category>Programming</category>
+        <delivery>"Hey Girl,\nRoses are #ff0000,\nViolets are #0000ff,\nI use hex codes,\nBut I'd use RGB for you."</delivery>
+    </joke>
+    <joke id="14">
+        <category>Programming</category>
+        <delivery>UDP is better in the COVID era since it avoids unnecessary handshakes.</delivery>
+    </joke>
+    <joke id="15">
+        <category>Pun</category>
+        <delivery>I bought some shoes from a drug dealer. I don't know what he laced them with, but I was tripping all day!</delivery>
+    </joke>
+    <joke id="16">
+        <category>Programming</category>
+        <delivery>Today I learned that changing random stuff until your program works is \"hacky\" and a \"bad coding practice\" but if you do it fast enough it's \"Machine Learning\" and pays 4x your current salary.</delivery>
+    </joke>
+    <joke id="17">
+        <category>Programming</category>
+        <delivery>"A byte walks into a bar looking miserable.\nThe bartender asks it: \"What's wrong buddy?\"\n\"Parity error.\" it replies. \n\"Ah that makes sense, I thought you looked a bit off.\""</delivery>
+    </joke>
+    <joke id="18">
+        <category>Dark</category>
+        <delivery>"I didn't vaccinate my 10 kids and the one that survived is fine!"</delivery>
+    </joke>
+    <joke id="19">
+        <category>Programming</category>
+        <delivery>"Hey Girl,\nRoses are #ff0000,\nViolets are #0000ff,\nI use hex codes,\nBut I'd use RGB for you."</delivery>
+    </joke>
+    <joke id="20">
+        <category>Programming</category>
+        <delivery>UDP is better in the COVID era since it avoids unnecessary handshakes.</delivery>
+    </joke>
+    <joke id="21">
+        <category>Pun</category>
+        <delivery>I bought some shoes from a drug dealer. I don't know what he laced them with, but I was tripping all day!</delivery>
+    </joke>
+    <joke id="22">
+        <category>Programming</category>
+        <delivery>Today I learned that changing random stuff until your program works is \"hacky\" and a \"bad coding practice\" but if you do it fast enough it's \"Machine Learning\" and pays 4x your current salary.</delivery>
+    </joke>
+    <joke id="23">
+        <category>Programming</category>
+        <delivery>"A byte walks into a bar looking miserable.\nThe bartender asks it: \"What's wrong buddy?\"\n\"Parity error.\" it replies. \n\"Ah that makes sense, I thought you looked a bit off.\""</delivery>
+    </joke>
+    <joke id="24">
+        <category>Dark</category>
+        <delivery>"I didn't vaccinate my 10 kids and the one that survived is fine!"</delivery>
+    </joke>
+    <joke id="25">
+        <category>Programming</category>
+        <delivery>"Hey Girl,\nRoses are #ff0000,\nViolets are #0000ff,\nI use hex codes,\nBut I'd use RGB for you."</delivery>
+    </joke>
+    <joke id="26">
+        <category>Programming</category>
+        <delivery>UDP is better in the COVID era since it avoids unnecessary handshakes.</delivery>
+    </joke>
+    <joke id="27">
+        <category>Pun</category>
+        <delivery>I bought some shoes from a drug dealer. I don't know what he laced them with, but I was tripping all day!</delivery>
+    </joke>
+    <joke id="28">
+        <category>Programming</category>
+        <delivery>Today I learned that changing random stuff until your program works is \"hacky\" and a \"bad coding practice\" but if you do it fast enough it's \"Machine Learning\" and pays 4x your current salary.</delivery>
+    </joke>
+    <joke id="29">
+        <category>Programming</category>
+        <delivery>"A byte walks into a bar looking miserable.\nThe bartender asks it: \"What's wrong buddy?\"\n\"Parity error.\" it replies. \n\"Ah that makes sense, I thought you looked a bit off.\""</delivery>
+    </joke>
+    <joke id="30">
+        <category>Dark</category>
+        <delivery>"I didn't vaccinate my 10 kids and the one that survived is fine!"</delivery>
+    </joke>
+    <joke id="31">
+        <category>Programming</category>
+        <delivery>"Hey Girl,\nRoses are #ff0000,\nViolets are #0000ff,\nI use hex codes,\nBut I'd use RGB for you."</delivery>
+    </joke>
+</jokes>
