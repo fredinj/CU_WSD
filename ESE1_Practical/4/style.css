@@ -1,0 +1,9 @@
+.main_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    padding:0px;
+    margin: 0px;
+}
