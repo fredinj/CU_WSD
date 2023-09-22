@@ -1,7 +1,17 @@
+.heading{
+    justify-items: center;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height:7vh;
+    color: rgb(182, 182, 182);
+}
+
 #main_cont{
     display: flex;
     flex-direction: row;
-    height:100vh;
+    height:93vh;
 }
 
 #product_div{
@@ -9,40 +19,48 @@
     flex-direction: row;
     flex-wrap:wrap;
     width: 73%;
-    height: 100%;
+    height: 95%;
     overflow: auto;
     justify-content: center;
+    margin: 1%;
+    border-radius: 10px;
 }
 
 .card{
     margin: 25px;
-
+    max-height:600px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.card_max{
-    max-height: 400px;
-    overflow: auto;
+.card:hover{
+    transform: scale(1.02);
 }
 
 #search_div{
     display:flex;
     flex-direction:column;
     width:25%;
-    height:96%;
+    height:95%;
     margin: 1%;
     padding:1%;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
-}
-
-#search_term{
-    width: 75%;
 }
 
 #search_content{
     display: flex;
     flex-direction: column;
-    height:100%;
+    height:80%;
     overflow: scroll;
     align-items: center;
+}
+
+.make_column{
+    display: flex;
+    align-items: center;
+}
+
+.right_10{
+    margin-right: 10px;
 }
