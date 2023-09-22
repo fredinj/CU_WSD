@@ -1,0 +1,34 @@
+#main_cont{
+    display: flex;
+    flex-direction: row;
+    height:100vh;
+}
+
+#product_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width: 73%;
+    height: 100%;
+    overflow: auto;
+    justify-content: center;
+}
+
+.card{
+    margin: 25px;
+}
+
+#search_div{
+    display:flex;
+    flex-direction:column;
+    width:25%;
+    height:96%;
+    /* border: solid 1px; */
+    margin: 1%;
+    padding:1%;
+    border-radius: 5px;
+}
+
+#search_term{
+    width: 75%;
+}
