@@ -23,12 +23,20 @@
     flex-direction:column;
     width:25%;
     height:96%;
-    /* border: solid 1px; */
     margin: 1%;
     padding:1%;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 #search_term{
     width: 75%;
+}
+
+#search_content{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    overflow: scroll;
+    align-items: center;
 }

@@ -9,26 +9,22 @@
 </head>
 <body>
     <div id="main_cont">
-        <div id="product_div">
-            
-        </div>
+        <div id="product_div"></div>
+        
         <div class="border border2" id="search_div">
-            <form>
-                <form>
-                    <div class="mb-3">
-                      <label class="form-label">Search Term</label>
-                      <input type="text" class="form-control form-control-lg" id="search_term">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="sort_chk">
-                      <label class="form-check-label">Sort by Price</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary" id="submit_btn">Submit</button>
-                    <hr>
-                    <div id="search_content">
-                    </div>
-                  </form>   
-            </form>
+          <form id="search_form">
+            <div class="mb-3">
+              <label class="form-label">Search Term</label>
+              <input type="text" class="form-control form-control-lg" id="search_term">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="sort_chk">
+              <label class="form-check-label">Sort by Price</label>
+            </div>
+            <button type="submit" class="btn btn-primary" id="search_btn">Submit</button>
+            <hr>
+          </form> 
+          <div id="search_content"></div>  
         </div>
     </div>
 </body>
