@@ -4,13 +4,13 @@ const search_content=document.getElementById("search_content");
 
 // Initial products load
 async function loadProducts(){
-    let res = await fetch('https://dummyjson.com/products?limit=20')
+    let res = await fetch('https://dummyjson.com/products')
         .then(products => products.json())
         .then(products => {
             products.products.forEach(product => {
                 product_div.innerHTML+=
                 `  
-                <div class="card" style="width: 18rem;">
+                <div class="card card_max" style="width: 18rem;">
                     <img src="${product.thumbnail}" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
@@ -30,10 +30,15 @@ search_form.addEventListener("submit", async (e)=>{
     let search_term=e.target.search_term.value;
     if(search_term.length !== 0){
         let res= await fetch(`https://dummyjson.com/products/search?q=${search_term}`)
-            .then(products => products.json())
-            .then(products =>{
-                if(products.total !== 0){
-                    products.products.forEach(product => {
+            .then(products_raw => products_raw.json())
+            .then(products_json =>{
+
+                //sorting   
+                if(e.target.price_sort.checked)
+                    products_json.products = products_json.products.sort((a,b) => a.price - b.price);
+
+                if(products_json.total !== 0){
+                    products_json.products.forEach(product => {
                         search_content.innerHTML+=
                         `
                         <div class="card" style="width: 18rem;">

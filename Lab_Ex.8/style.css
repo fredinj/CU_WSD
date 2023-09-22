@@ -16,6 +16,12 @@
 
 .card{
     margin: 25px;
+
+}
+
+.card_max{
+    max-height: 400px;
+    overflow: auto;
 }
 
 #search_div{
