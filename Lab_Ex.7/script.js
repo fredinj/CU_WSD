@@ -25,6 +25,6 @@ function displayBooks(books) {
           <p class="card-text">Author: ${book.author}</p>
           <a href="${book.link}">Book Details</a>
         </div>
-      </div>`;
+      </div>`
   });
 }
