@@ -3,7 +3,7 @@ const path = require('path');
 
 //append content to file
 fs.appendFile(
-  path.join(__dirname, 'files', 'fileData.txt'),
+  path.join(__dirname, 'posts', 'post.txt'),
   '\nMore data it is',
   (err) => {
     if (err) {
